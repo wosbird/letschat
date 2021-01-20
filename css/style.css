@@ -1,0 +1,58 @@
+
+@media only screen and (max-width: 600px) {
+body{
+
+    background-image: linear-gradient(180deg, rgba(148, 68, 255, 1) 0%, rgba(88, 139, 253, 1) 50%, rgba(33, 210, 254, 1) 100%);
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: black;
+    font-family: roboto;
+    color: white;
+}
+
+
+h1{
+    font-family: 'lobster', cursive;
+    color: white;
+    text-align: center;
+    font-size: 48pt;
+}
+
+p{
+    font-family: roboto, sans-serif;
+    color: white;
+    font-size: 14pt;
+}
+.jumbotron{
+    background-color: rgba(94, 22, 22, 0);
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
