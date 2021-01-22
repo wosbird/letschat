@@ -6,9 +6,18 @@ body{
     background-repeat: no-repeat;
 }
 nav{
-    background-color: black;
+    background-image: linear-gradient(#f2f2f2,rgba(255, 255, 255, 0.384));
     font-family: roboto;
     color: white;
+}
+
+button:hover{
+    background-color: white;
+    border: none;
+}
+
+button:active{
+    border: none;
 }
 
 

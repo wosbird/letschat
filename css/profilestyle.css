@@ -11,12 +11,33 @@ nav{
     color: white;
 }
 
+button:hover{
+    background-color: white;
+    border: none;
+}
+
+button:active{
+    border: none;
+}
+
+button{
+    background-color:  rgba(255, 255, 255, 0.8);
+    font-family: roboto;
+    font-size: 18pt;
+}
 
 h1{
     font-family: 'lobster', cursive;
     color: white;
     text-align: center;
     font-size: 48pt;
+}
+
+h2{
+    font-family: roboto;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
 }
 
 p{
@@ -27,57 +48,51 @@ p{
 .jumbotron{
     background-color: rgba(94, 22, 22, 0);
     text-align: center;
-    padding-top: 110px;
+    padding-top: 30px;
 
 }
 
-.signup{
-    
+ .card{
+     background-color:  rgba(255, 255, 255, 0.5);
+     font-family: roboto;
+     
+ }
+
+.dropdown-menu{
+    background-color:  rgba(255, 255, 255, 0.8);
+    font-family: roboto;  
+}
+
+.botnav{
+    background-color:  rgba(255, 255, 255, 0.5);
     font-family: roboto;
-    font-size: 24px;
-    border: none;
-    border-radius: 10px;
-    text-align: center;
-    height: 50px;
-    width: 300px;
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.5);
-    background-image: linear-gradient(#f2f2f2,rgba(255, 255, 255, 0.384)) ;
+    width: 100%;   
+    color: black;
 }
 
-#bot{
-    height:600px;
-}    
- button:hover{
-     background-color: white;
-     border: none;
- }
-
- button:active{
-     border: none;
- }
 
 
 /* unvisited link */
 a:link {
-    color:black;
+    color: rgba(255, 255, 255, 0.8);
   }
   
   /* visited link */
   a:visited {
-    color: black;
+    color: rgba(255, 255, 255, 0.8);
   }
   
   /* mouse over link */
   a:hover {
-    color: black;
-    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
   }
   
   /* selected link */
   a:active {
-    color: black;
+    color:black;
   }
+
+
 
 }
 
