@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="../letschat/css/roomstyle.css">
+    <link rel="stylesheet" href="../letschat/css/chatroom.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -55,41 +55,103 @@
     
     </nav>
     <!--/.Navbar-->
-
-    <div class="jumbotron">
+<div class="Title">
   <h1>Let's Chat!</h1>
-      </div>
-   
-<img src="../letschat/images/md-chatroom.png">
-<br>
-<br>
-
-<div class="d-flex justify-content-center">
- 
-<button type="button" class="btn bg-light btn-lg btn-center">My Saved Chat Rooms</button>
+  <p>Friends List</p>
 </div>
-<br>
-<div class="d-flex justify-content-center">
-<a href="newchatroom.html"> <button type="button" class="btn bg-light btn-lg">Discover New Chat Rooms</button></a>
-</div>
-
-<br>
-<br>
-
- <br>
+    <div class="container-fluid h-100">
+			<div class="row justify-content-center h-100">
+				<div class="col-md-4 col-xl-3 chat"><div class="card mb-sm-3 mb-md-0 contacts_card">
+					<div class="card-header">
+						<div class="input-group">
+							<input type="text" placeholder="Search..." name="" class="form-control search">
+							<div class="input-group-prepend">
+								<span class="input-group-text search_btn"><i class="fas fa-search"></i></span>
+							</div>
+						</div>
+					</div>
+					<div class="card-body contacts_body">
+						<ui class="contacts">
+						<li class="active">
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="../letschat/images/angieavatar.png" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span>Angie</span>
+									<p>Angie is online</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="../letschat/images/pinkavatar.png" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Kitt</span>
+									<p>Kitt left 7 mins ago</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="../letschat/images/bobavatar.png" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span>Verity</span>
+									<p>Verity is online</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="../letschat/images/avatar.png" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Hex</span>
+									<p>Hex left 30 mins ago</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="../letschat/images/beardavatar.png" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Cole</span>
+									<p>Cole left 50 mins ago</p>
+								</div>
+							</div>
+						</li>
+						</ui>
+					</div>
+	</div>
+        <br>
+        <br>
+        <br>				
+					
 <div class="botnav">
     <ul class="nav nav-pills nav-fill">
       <li class="nav-item" id="profile">
         <a class="nav-link" href="profile1.html"><img src="../letschat/images/sm-profile.png"><br>Profile</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active bg-secondary" href="#"><img src="../letschat/images/sm-chat.png"><br>Chat Rooms</a>
+        <a class="nav-link " href="chatroom.html"><img src="../letschat/images/sm-chat.png"><br>Chat Rooms</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"><img src="../letschat/images/sm-convo.png"><br>Convos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="friends.html"><img src="../letschat/images/sm-five.png"><br>Friends</a>
+        <a class="nav-link active bg-secondary" href="#"><img src="../letschat/images/sm-five.png"><br>Friends</a>
       </li>
     </ul>
     </div>
